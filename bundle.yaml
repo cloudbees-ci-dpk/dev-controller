@@ -1,8 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "cloudbees-ci-dpk-dev-controller"
 description: "CloudBees CI configuration bundle for the cloudbees-ci-dpk dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/cloudbees-ci-dpk/dev-controller"
 parent: "base"
 rbac:
   - "rbac.yaml"
+items:
+  - "folders.yaml"
